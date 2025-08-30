@@ -20,7 +20,7 @@ Table and column names should all be ~snake_case~.
 Custom postgres types (e.g. enums) should be ~snake_case~ and suffixed with ~_t~.
 
 * ~TODO~
-- [ x ] +https://github.com/donut-party/datapotato-+-tests+
+- [ x ] +https://github.com/donut-party/datapotato-&-tests+
 - [ ] ~sqlite~ -> ~PostgreSQL~
 - [ ] add ~routes~ table to DB
 - [ ] one script to rule all of ~scripts/~
