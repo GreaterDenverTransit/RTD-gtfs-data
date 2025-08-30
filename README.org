@@ -18,6 +18,7 @@ Please add a new migration in the format ~Vxyz__what_migration_does.sql~ where ~
 Table and column names should all be ~snake_case~.
 *** Types
 Custom postgres types (e.g. enums) should be ~snake_case~ and suffixed with ~_t~.
+
 * ~TODO~
 - [ x ] +https://github.com/donut-party/datapotato-+-tests+
 - [ ] ~sqlite~ -> ~PostgreSQL~
