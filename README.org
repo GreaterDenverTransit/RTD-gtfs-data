@@ -1,4 +1,4 @@
-#+title: raw-data-rtd
+#+title: RTD GTFS Data
 #+author: Joe Meyer, Emma Griffin, GreaterDenverTransit
 
 (Static GTFS Feeds) and (Ridership by Trip and Stop) for RTD network
@@ -20,11 +20,11 @@ Table and column names should all be ~snake_case~.
 Custom postgres types (e.g. enums) should be ~snake_case~ and suffixed with ~_t~.
 
 * ~TODO~
-- [ x ] h̵t̵t̵p̵s̵:̵/̵/̵g̵i̵t̵h̵u̵b̵.̵c̵o̵m̵/̵d̵o̵n̵u̵t̵-̵p̵a̵r̵t̵y̵/̵d̵a̵t̵a̵p̵o̵t̵a̵t̵o̵ ̵+̵ ̵t̵e̵s̵t̵s̵
+- [ x ] +https://github.com/donut-party/datapotato-+-tests+
 - [ ] ~sqlite~ -> ~PostgreSQL~
 - [ ] add ~routes~ table to DB
 - [ ] one script to rule all of ~scripts/~
 - [ ] db in proper accessible storage (AWS, Google Drive, SFTP server, etc.)
 - [ ] db migrations for schema
 - [ ] vulnerability scanner as part of circleCI job https://github.com/rm-hull/nvd-clojure
-- [ ] better name for project
+- [ x ] +better name for project+
