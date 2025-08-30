@@ -1,4 +1,4 @@
-#+title: raw-data-rtd
+#+title: RTD GTFS Data
 #+author: Joe Meyer, Emma Griffin, GreaterDenverTransit
 
 (Static GTFS Feeds) and (Ridership by Trip and Stop) for RTD network
@@ -27,4 +27,4 @@ Custom postgres types (e.g. enums) should be ~snake_case~ and suffixed with ~_t~
 - [ ] db in proper accessible storage (AWS, Google Drive, SFTP server, etc.)
 - [ ] db migrations for schema
 - [ ] vulnerability scanner as part of circleCI job https://github.com/rm-hull/nvd-clojure
-- [ ] better name for project
+- [ x ] +better name for project+
