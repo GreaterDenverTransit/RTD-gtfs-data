@@ -24,7 +24,7 @@
 
 (defn clean! [] (.clean flyway))
 
-(defn reset! [] (clean!) (migrate!))
+(defn restart! [] (clean!) (migrate!))
 
 (defn execute!
   [db hsql]
