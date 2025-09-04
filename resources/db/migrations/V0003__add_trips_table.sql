@@ -40,6 +40,7 @@ CREATE TABLE IF NOT EXISTS trips (
   trip_headsign    TEXT         NOT NULL,
   trip_id          INTEGER      NOT NULL,
   trip_time        TIME         NOT NULL,
+  PRIMARY KEY(trip_id)
 );
 
 -- TODO consider standardizing to

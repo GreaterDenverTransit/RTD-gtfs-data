@@ -1,14 +1,14 @@
 CREATE TYPE IF NOT EXISTS stop_direction_t AS ENUM (
-  'Vehicles Travelling East'
-  'Vehicles Travelling North'
-  'Vehicles Travelling Northeast'
-  'Vehicles Travelling Northwest'
-  'Vehicles Travelling South'
-  'Vehicles Travelling Southeast'
-  'Vehicles Travelling Southwest'
-  'Vehicles Travelling West'
+  'Vehicles Travelling East',
+  'Vehicles Travelling North',
+  'Vehicles Travelling Northeast',
+  'Vehicles Travelling Northwest',
+  'Vehicles Travelling South',
+  'Vehicles Travelling Southeast',
+  'Vehicles Travelling Southwest',
+  'Vehicles Travelling West',
   'Vehicles Travelling'
-)
+);
 
 CREATE TABLE IF NOT EXISTS stops (
   location_type       BOOLEAN        NOT NULL,

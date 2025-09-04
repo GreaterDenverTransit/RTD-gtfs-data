@@ -6,7 +6,7 @@ CREATE TYPE IF NOT EXISTS pickup_dropoff_t AS ENUM (
 );
 
 CREATE TABLE IF NOT EXISTS stop_times (
-	arrival_time	       TEXT             NOT NULL,
+  arrival_time	       TEXT             NOT NULL,
 	arrival_time_24_hr   TIME             NOT NULL,
 	departure_time	     TEXT             NOT NULL,
   departure_time_24_hr TIME             NOT NULL,
