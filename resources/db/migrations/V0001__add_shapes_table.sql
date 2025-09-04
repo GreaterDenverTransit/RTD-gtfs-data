@@ -1,9 +1,9 @@
 CREATE TABLE IF NOT EXISTS shapes (
+  shape_dist_traveled TEXT,
   shape_id            INTEGER NOT NULL,
   shape_pt_lat        REAL NOT NULL,
   shape_pt_lon        REAL NOT NULL,
   shape_pt_sequence   INTEGER NOT NULL,
-  shape_dist_traveled TEXT,
   PRIMARY KEY(shape_id, shape_pt_sequence)
 );
 

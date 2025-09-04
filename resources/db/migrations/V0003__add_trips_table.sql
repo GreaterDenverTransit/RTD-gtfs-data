@@ -46,18 +46,22 @@ CREATE TABLE IF NOT EXISTS trips (
 -- EB/NB/IB/CW = false and WB/SB/OB/CCW = true
 COMMENT ON COLUMN trips.direction_id IS
   'This field is used to distinguish one direction of travel from another but is
-  not easily mapped to a direction (e.g. east/west/north/south/inbound/outbound).
+  not easily mapped to a direction
+  (e.g. east/west/north/south/inbound/outbound).
   Its primary utility comes from grouping/aggregating/filtering one direction
-  from another where identifying which direction (e.g. northbound versus southbound)
+  from another where identifying which direction
+  (e.g. northbound versus southbound)
   in results isn''t necessary. trip_headsign provides better information on this
-  but is bespoke to a given route rather than standardized to a cardinal direction.';
+  but is bespoke to a given route rather than standardized to a cardinal
+  direction.';
 
 COMMENT ON COLUMN trips.start_time_24_hr IS
-  'Like start_time but guaranteed to be compliant with 00:00:00-23:59:59 format in cases where
-  trip spans two days.';
+  'Like start_time but guaranteed to be compliant with 00:00:00-23:59:59 format
+  in cases where trip spans two days.';
 
 COMMENT ON COLUMN trips.end_time_24_hr IS
-  'Like end_time but guaranteed to be compliant with 00:00:00-23:59:59 format in cases where
+  'Like end_time but guaranteed to be compliant with 00:00:00-23:59:59 format in
+  cases where
   trip spans two days.';
 
 COMMENT ON TABLE trips IS
